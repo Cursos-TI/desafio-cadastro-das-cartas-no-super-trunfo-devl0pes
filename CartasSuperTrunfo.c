@@ -69,12 +69,7 @@ scanf ("%f",&pib2);
 printf ("quantos pontos turisticos tem na sua segunda cidade:\n");
 scanf ("%d",&pontos_t2);
 
-
-
-
 return 0;
-
-
 
 
 }
