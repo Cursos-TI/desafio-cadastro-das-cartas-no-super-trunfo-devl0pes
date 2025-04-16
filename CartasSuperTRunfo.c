@@ -26,17 +26,17 @@ scanf ("%c",&estado);
 
 
 printf ("coloque o codigo da sua cidade de '1' a'5':\n");
-scanf ("%s",&codigo);
+scanf ("%d",&codigo);
 
 
 printf ("nome da sua  cidade:\n");
-scanf ("%s",&cidade);
+scanf ("%s",cidade);
 
 printf("quantos habitantes tem na sua cidade\n");
-scanf ("%d",&populacao);
+scanf ("%e",&populacao);
 
 printf ("quantos km² tem na sua cidade:\n");
-scanf ("%f",&area);
+scanf ("%e",&area);
 
 printf ("qual o pib da sua cidade:\n");
 scanf ("%f",&pib);
@@ -51,17 +51,17 @@ getchar(); // precisei colocar getchar para dar espaço dos dados da primeira ci
 
 
 printf ("coloque o codigo da sua segunda  cidade de '2' a'6':\n");
-scanf ("%s",&codigo2);
+scanf ("%d",&codigo2);
 
 
 printf ("nome da sua segunda cidade:\n");
 scanf ("%s",&cidade2);
 
 printf("quantos habitantes tem na sua segunda cidade\n");
-scanf ("%d",&populacao2);
+scanf ("%e",&populacao2);
 
 printf ("quantos km² tem na sua segunda cidade:\n");
-scanf ("%f",&area2);
+scanf ("%e",&area2);
 
 printf ("qual o pib da sua segunda cidade:\n");
 scanf ("%f",&pib2);
